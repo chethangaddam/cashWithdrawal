@@ -1,0 +1,82 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card {
+  background-color: #150b3e;
+  width: 70%;
+  max-width: 500px;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: #7c3aed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  color: #d4d2db;
+  font-size: 22px;
+  margin-left: 14px;
+  font-weight: 300;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-text {
+  color: #585076;
+  font-size: 24px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+}
+.amount {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+.amount-text {
+  color: #585076;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.withdraw-text {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 0px;
+  margin-top: 15px;
+}
+.choose-text {
+  color: #585076;
+  font-size: 16pxpx;
+}
+.denomination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
